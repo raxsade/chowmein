@@ -1,0 +1,9 @@
+.head-container{
+  height: 60px;
+}
+.head li{
+  display: inline;
+}
+.body{
+  top: 60px;
+}

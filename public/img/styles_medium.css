@@ -1,0 +1,20 @@
+.head, .body, .foot{
+  width: 100%;
+  left: 0;
+  margin-left: 0;
+}
+.foot-left, .foot-right{
+  width: 49%;
+}
+.body{
+  width: 88%;
+  left: 50%;
+  margin-left: -48%;
+}
+.dragon{
+  right: 0%;
+  margin-right: 0px;
+}
+.dragon, .dragon-container{
+  width: 12%;
+}

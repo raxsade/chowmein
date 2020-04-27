@@ -1,0 +1,62 @@
+HTML, BODY { height: 100%;  }
+BODY {margin: 0; }
+BODY, INPUT, SELECT, TEXTAREA, BUTTON, TD, TH { font-family: Verdana, Helvetica, sans-serif; color: #0a0a0a; font-size: 13px; }
+INPUT, SELECT, TEXTAREA { color: #3c3c3c; font-size: 13px; margin: 0; }
+
+TEXTAREA { overflow: auto; }
+
+H1, H2, H3, H4, H5, H6 { font-family: "Indie Flower", serif; margin: 0; padding: 0; color: #0a0a0a; font-weight: bold; line-height: normal !important; font-style: normal; }
+
+H1 { font-family: "Courgette"; font-size: 2em; margin: 0.5em 0 0.5em 0; line-height: normal !important; text-transform:uppercase;}
+H2 { font-size: 1.8em; }
+
+IMG { border: 0; }
+
+A { color: #0a0a0a; text-decoration: none; }
+A:hover { color: #b20e10; text-decoration: none; }
+
+.left { text-align: left; }
+.right { text-align: right; }
+.center { text-align: center; }
+.justify { text-align: justify; }
+.middle { vertical-align: middle; }
+.vbottom { vertical-align: bottom; }
+.nopadding { padding: 0 !important; }
+.nomargin { margin: 0 !important; }
+.noborder { border: none !important; }
+.nowrap { white-space: nowrap; }
+.hidden { display: none; }
+.bold { font-weight: bold; }
+.margb {margin-bottom: 20px !important; }
+.margl {margin-left: 20px !important; }
+.margt {margin-top: 20px !important; }
+.newsletter {}
+
+.mt1em { margin-top: 1em !important; }
+.mt2em { margin-top: 2em !important; }
+
+
+.wdate { width: 56px; }
+.w100p { width: 100%; }
+.wauto { width: auto !important; }
+
+.clear { overflow: hidden; }
+* HTML .clear { overflow: visible; height: 1px; }
+
+.req, .error, .red { color: #b71234; }
+
+.content { line-height: 1.6; }
+
+.posrel { position: relative; }
+
+.f-left { float: left; }
+.f-right { float: right !important; }
+.c-left { clear: left; }
+.c-right { clear: right; }
+
+/* Mozilla recovery */
+*:focus { outline: none; }
+INPUT[type="checkbox"] { padding: 0; margin: 4px; -moz-appearance: checkbox; border: none !important; }
+INPUT[type="radio"] { padding: 0; margin: 4px; -moz-appearance: radio; border: none !important; }
+*:first-child+HTML INPUT[type="checkbox"] { margin: 0; border: none !important; }
+*:first-child+HTML INPUT[type="radio"] { margin: 0;  border: none !important;}

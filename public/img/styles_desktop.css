@@ -1,0 +1,83 @@
+body, td{
+  font-size: 1.1em;
+}
+/*---- HEAD ----*/
+.head, .foot{
+  width: 980px;
+  left: 50%;
+  margin-left: -490px;
+}
+.foot-left, .foot-right{
+  width: 490px;
+}
+.body {
+  width: 880px;
+  left: 50%;
+  margin-left: -470px;
+}
+.head-container{
+  height: 100px;
+}
+.head{
+  /*background-image: url('/img/logo256.png');*/
+  /*background-repeat: no-repeat;*/
+  /*background-size: 100px 100px;*/
+  height: 100px;
+  z-index: 20;
+}
+.head .chowlogo{
+  height: 100px;
+  width: 100px;
+  max-height: 100px;
+  max-width: 100px;
+}
+.head h1{
+  display: inline;
+  padding-left: 100px;
+  font-size: 3.8em;
+  margin-left: 5px;
+}
+.head ul{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.head li{
+  margin-right: 10px;
+}
+.dragon{
+  display: block;
+  margin-right: -490px;
+  opacity: 0.7;
+  right: 50%;
+  width: 120px;
+}
+.head i{
+  font-size: 1.4em;
+}
+/*---- BODY ----*/
+.body {
+  top: 90px;
+}
+.body h2{
+  font-size: 2em;
+  text-shadow: 2px 2px 2px #321;
+}
+.body table{
+  margin-left: 20px;
+  width: 100%;
+  max-width: 850px;
+}
+.body tr{
+  margin-top: 6px;
+}
+.body .number {
+  width: 30px;
+}
+.body .food:before{
+  margin-right: 10px;
+}
+/*---- FOOT ----*/
+.foot-left i{
+  font-size: 1.6em;
+  border-radius:6px;
+}

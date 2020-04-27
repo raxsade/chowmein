@@ -1,0 +1,60 @@
+.head-container{
+  height: 80px;
+}
+.head h1{
+  font-size: 2em;
+  margin: 0px;
+  text-shadow: 2px 2px 2px #222;
+}
+.head{
+  /*background-image: url("/img/logo256.png");*/
+  /*background-size: 60px 60px;*/
+  /*background-repeat: no-repeat;*/
+  min-height: 60px;
+  max-height: 80px;
+  height: 100%;
+  z-index: 20;
+}
+.head .chowlogo{
+  height: 60px;
+  width: 60px;
+}
+.head a:hover img{
+  background-size: 60px 60px;
+}
+.dragon{
+  display:block;
+  margin-right: 0px;
+  opacity: 0.8;
+  right: 0px;
+  width: 50px;
+}
+.head ul{
+  /*margin-left: 70px;*/
+}
+.head i {
+  font-size: 1.8em;
+}
+.head li i{
+  margin-left: 5px;
+}
+.body{
+  padding-bottom: 50px;
+  top: 80px;
+}
+.body td{
+  font-size: 1.2em;
+}
+.body .number {
+  width: 25px;
+}
+.head a{
+  padding: 5px;
+}
+.foot i{
+  font-size: 1.6em;
+  border-radius:7px;
+}
+.foot-left, .foot-right{
+  width: 49%;
+}
