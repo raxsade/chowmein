@@ -1,9 +1,9 @@
-.head-container{
+.head-container {
   height: 60px;
 }
-.head li{
+.head li {
   display: inline;
 }
-.body{
+.body {
   top: 60px;
 }
